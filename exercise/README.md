@@ -56,18 +56,14 @@ print("Exercise: 2")
 print("Exercise: 3")
 ```
 
-## Exercise 4: What kind of Triangle?
+## Exercise 4: Old enough to vote?
 
 ```python
 # Write the code that:
-# 1. Prompts the user to enter the three lengths of a triangle:
-#      Enter the lengths of three sides of a triangle (a, b, c):
-# 2. Determines the type of triangle:
-#      - Equilateral: All three sides are equal.
-#      - Scalene: All three sides are unequal.
-#      - Isosceles: Exactly two sides are the same length.
-# 3. Prints the type of triangle:
-#      A triangle with sides of <a>, <b> & <c> is a <type> triangle.
+# 1. Prompts the user to input their age (note, you must validate the age is possible, so no negative numbers):
+#      Please enter your age:
+# 2. Write the code that determines if the user is eligible to     vote based on the voting age (set a variable for the voting age).  
+# 3. Prints a message indicating eligibility based on the entered age.
 
 print("Exercise: 4")
 ```

@@ -2,11 +2,11 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+This hands-on lab dives into the world of python control flow, breakingdown essential concepts like if statements, loops, and working with user input. 
 
 ## Prerequisites
 
-- tktk
+- Python Control Flow
 
 ## Time to complete
 

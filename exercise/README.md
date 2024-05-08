@@ -1,107 +1,185 @@
 # ![Python Control Flow Lab - Exercise](./assets/hero.png)
 
-Welcome to the Python Control Flow Lab! This lab is designed to help you apply and enhance your understanding of Python control flow. We'll explore fundamental concepts like conditional statements, loops, and input handling. By the end of this lab, you'll be able to write Python scripts that make decisions, repeat actions, and process user input, building a solid foundation for more advanced programming tasks.
+## intro
 
-Instructions:
+Welcome to the Python Control Flow Lab! In this lab, you'll practice implementing control flow in Python, which includes making decisions with conditional statements, repeating actions with loops, and managing user input. 
 
-- For each exercise, copy the provided code into a new file named `exercise.py`.
-- Complete the code according to the exercise instructions.
-- After completing each exercise, run `python3 exercise.py` in your terminal to check the output.
+By the end of this lab, you will be able to:
+
+- Handle user input effectively and safely to make your programs interactive.
+- Use `if`, `elif`, and `else` statements to make decisions in your code.
+- Combine logical operators (`AND`, `OR`, `NOT`) to make more complex conditional statements.
+- Utilize loops to repeat actions and process sequences.
+
+## Getting Started
+
+- For each exercise, copy the provided code into a new Python script file named `exercise.py`.
+- Each exercise will include a function where you will write your code. The function structure is provided to help you focus on implementing the specific control flow logic required.
+- Follow the exercise instructions carefully to complete the code.
+- After completing each exercise, run `python3 exercise.py` in your terminal to see the output and test your code.
+
+> You may not have encountered the syntax for functions in Python yet. Don't worry! We've provided the function structure for you. All you need to do is add your code inside the function, just below the comment that says # Your control flow logic goes here. Make sure to indent your code one tab or two spaces from the left margin to ensure it is part of the function.
 
 Let's get started!
+
+## Exercise 0 : Example
+
+```python
+# Exercise 0: Example
+#
+# This is a practice exercise to help you understand how to write code "inside" a provided Python function.
+#
+# We'll create a function that checks a condition and prints a specific greeting message based on that condition.
+#
+# Requirements:
+# - The function is named `print_greeting`.
+# - Inside the function, declare a variable `python_is_fun` and set it to `True`.
+# - Use a conditional statement to check if `python_is_fun` is `True`.
+# - If `python_is_fun` is `True`, print the message "Python is fun!"
+
+def print_greeting():
+    # Your code goes here. Remember to indent!
+    python_is_fun = True
+    if python_is_fun:
+        print("Python is fun!")
+
+# Call the function
+print_greeting()
+```
 
 ## Exercise 1: Vowel or Consonant
 
 ```python
-# Write the code that:
-# 1. Prompts the user to enter a letter in the alphabet:
-#      Please enter a letter from the alphabet (a-z or A-Z): 
-# 2. Determines whether the letter entered is a vowel.
-# 3. Prints one of the following messages (substitute 'x' with the letter):
-#      - The letter x is a vowel.
-#      - The letter x is a consonant.
+# Exercise 1: Vowel or Consonant
 #
-# Hints: Use the 'in' operator to check if a character is in another string.
+# Write a Python function named `check_letter` that determines if a given letter
+# is a vowel or a consonant.
+#
+# Requirements:
+# - The function should prompt the user to enter a letter (a-z or A-Z) and determine its type.
+# - It should handle both uppercase and lowercase letters.
+# - If the letter is a vowel (a, e, i, o, u), print: "The letter x is a vowel."
+# - If the letter is a consonant, print: "The letter x is a consonant."
+# - Replace 'x' with the actual letter entered by the user.
+#
+# Hints:
+# - Use the `input()` function to capture user input.
+# - Utilize the `in` operator to check for vowels.
+# - Ensure to provide feedback for non-alphabetical or invalid entries.
 
-print("Exercise: 1")
+def check_letter():
+    # Your control flow logic goes here
+
+# Call the function
+check_letter()
 ```
 
-## Exercise 2: Length of Phrase
+## Exercise 2: Old enough to vote?
 
 ```python
-# Write the code that:
-# 1. Prompts the user to enter a phrase:
-#      Please enter a word or phrase: 
-# 2. Prints the length of the phrase as follows:
-#      - What you entered is xx characters long.
-# 3. Repeats step 1, unless 'quit' was entered.
+# Exercise 2: Old enough to vote?
+#
+# Write a Python function named `check_voting_eligibility` that determines if a user is old enough to vote.
+# Fill in the logic to perform the eligibility check inside the function.
+#
+# Function Details:
+# - Prompt the user to input their age: "Please enter your age: "
+# - Validate the input to ensure the age is a possible value (no negative numbers).
+# - Determine if the user is eligible to vote. Set a variable for the voting age.
+# - Print a message indicating whether the user is eligible to vote based on the entered age.
+#
+# Hints:
+# - Use the `input()` function to capture the user's age.
+# - Use `int()` to convert the input to an integer. Ensure to handle any conversion errors gracefully.
+# - Use a conditional statement to check if the age meets the minimum voting age requirement.
 
-print("Exercise: 2")
+def check_voting_eligibility():
+    # Your control flow logic goes here
+
+# Call the function
+check_voting_eligibility()
 ```
 
 ## Exercise 3: Calculate Dog Years
 
 ```python
-# Write the code that:
-# 1. Prompts the user to enter a dog's age:
-#      Input a dog's age: 
-# 2. Calculates the dog's age in dog years:
-#      - The first two years count as 10 years each.
-#      - Subsequent years count as 7 years each.
-# 3. Prints the calculated age:
-#      The dog's age in dog years is xx.
+# Exercise 3: Calculate Dog Years
 #
-# Hints: Use the int() function to convert the input to an integer.
-
-print("Exercise: 3")
-```
-
-## Exercise 4: Old enough to vote?
-
-```python
-# Write the code that:
-# 1. Prompts the user to input their age (note, you must validate the age is possible, so no negative numbers):
-#      Please enter your age:
-# 2. Write the code that determines if the user is eligible to     vote based on the voting age (set a variable for the voting age).  
-# 3. Prints a message indicating eligibility based on the entered age.
-
-print("Exercise: 4")
-```
-
-## Exercise 5: Fibonacci sequence for first 50 terms
-
-```python
-# Write the code that:
-# 1. Calculates the first 50 terms of the Fibonacci sequence.
-# 2. Prints each term and its value as follows:
-#      term: 0 / number: 0
-#      term: 1 / number: 1
-#      ...
+# Write a Python function named `calculate_dog_years` that calculates a dog's age in dog years.
+# Fill in the logic to perform the calculation inside the function.
 #
-# Hints: The next number is found by adding the two numbers before it.
-#        Use a for loop and the range() function.
+# Function Details:
+# - Prompt the user to enter a dog's age: "Input a dog's age: "
+# - Calculate the dog's age in dog years:
+#      - The first two years of the dog's life count as 10 dog years each.
+#      - Each subsequent year counts as 7 dog years.
+# - Print the calculated age: "The dog's age in dog years is xx."
+# - Replace 'xx' with the calculated dog years.
+#
+# Hints:
+# - Use the `input()` function to capture user input.
+# - Convert the string input to an integer using `int()`.
+# - Apply conditional logic to perform the correct age calculation based on the dog's age.
 
-print("Exercise: 5")
+def calculate_dog_years():
+    # Your control flow logic goes here
+
+# Call the function
+calculate_dog_years()
 ```
 
-## Exercise 6: What's the Season?
+## Exercise 4: Weather Advice
 
 ```python
-# Write the code that:
-# 1. Prompts the user to enter the month (as three characters):
-#      Enter the month of the year (Jan - Dec):
-# 2. Then prompts the user to enter the day of the month:
-#      Enter the day of the month:
-# 3. Determines the current season based on the date:
+# Exercise 4: Weather Advice
+#
+# Write a Python script named `weather_advice` that provides clothing advice based on weather conditions.
+#
+# Requirements:
+# - The script should prompt the user to enter if it is cold (yes/no).
+# - Then, ask if it is raining (yes/no).
+# - Use logical operators to determine clothing advice:
+#   - If it is cold AND raining, print "Wear a waterproof coat."
+#   - If it is cold BUT NOT raining, print "Wear a warm coat."
+#   - If it is NOT cold but raining, print "Carry an umbrella."
+#   - If it is NOT cold AND NOT raining, print "Wear light clothing."
+#
+# Hints:
+# - Use logical operators (`AND`, `OR`, `NOT`) in your if statements to handle multiple conditions.
+
+def weather_advice():
+    # Your control flow logic goes here
+
+# Call the function
+weather_advice()
+```
+
+
+## Exercise 5: What's the Season?
+
+```python
+# Exercise 5: What's the Season?
+#
+# Write a Python function named `determine_season` that figures out the season based on the entered date.
+#
+# Requirements:
+# - The function should first prompt the user to enter the month (as three characters): "Enter the month of the year (Jan - Dec):"
+# - Then, the function should prompt the user to enter the day of the month: "Enter the day of the month:"
+# - Determine the current season based on the date:
 #      - Dec 21 - Mar 19: Winter
 #      - Mar 20 - Jun 20: Spring
 #      - Jun 21 - Sep 21: Summer
 #      - Sep 22 - Dec 20: Fall
-# 4. Prints the season for the entered date:
-#      <Mmm> <dd> is in <season>.
+# - Print the season for the entered date in the format: "<Mmm> <dd> is in <season>."
 #
-# Hints: Use 'in' to check if a string is in a list or tuple.
-#        Adjust the season based on the day of the month when needed.
+# Hints:
+# - Use 'in' to check if a string is in a list or tuple.
+# - Adjust the season based on the day of the month when needed.
+# - Ensure to validate input formats and handle unexpected inputs gracefully.
 
-print("Exercise: 6")
+def determine_season():
+    # Your control flow logic goes here
+
+# Call the function
+determine_season()
 ```

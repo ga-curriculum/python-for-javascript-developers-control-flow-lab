@@ -10,8 +10,6 @@ cd ~/code/ga/labs
 
 Make a new repository on [GitHub](https://github.com/) named python-control-flow-lab.
 
-<!-- tktk -->
-
 Clone a copy of your remote repo locally by using the `git clone` command:
 
 ```bash

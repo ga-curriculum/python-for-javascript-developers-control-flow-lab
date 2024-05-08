@@ -2,7 +2,7 @@
 
 ## About
 
-This hands-on lab dives into the world of python control flow, breakingdown essential concepts like if statements, loops, and working with user input. 
+Welcome to the Python Control Flow Lab! In this lab, you'll practice implementing control flow in Python, which includes making decisions with conditional statements, repeating actions with loops, and managing user input.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ This hands-on lab dives into the world of python control flow, breakingdown esse
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: **tktk min**
+Estimated time to complete core lab exercise: **60 min**
 
 ## Content
 
@@ -19,11 +19,11 @@ Estimated time to complete core lab exercise: **tktk min**
 
 ## Level Up
 
-🚀 [Level Up](./level-up/README.md) tktk - remove section if no level ups exist.
+🚀 [Level Up](./level-up/README.md)
 
 ## Solution code
 
-🏁 [tktk Solution code](#tktk-external-repo-link-url)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-for-javascript-developers-control-flow-lab-solution)
 
 ## Internal resources
 

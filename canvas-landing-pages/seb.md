@@ -1,4 +1,4 @@
-# ![Python Control Flow Lab](../assets/tktk-hero.png)
+# ![Python Control Flow Lab](../assets/hero.png)
 
 ## About
 

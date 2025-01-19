@@ -13,6 +13,6 @@ This release modularizes the legacy Python Control FLow lab and provides some ot
 
 #### Changes
 
-- New exercises introduces to cover a broader range of control flow syntax examples.
+- New exercises introduced to cover a broader range of control flow syntax examples.
 
 #### Removals

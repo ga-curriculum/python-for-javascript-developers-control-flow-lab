@@ -14,10 +14,10 @@ By the end of this lab, you will be able to:
 
 ## Getting Started
 
-- For each exercise, copy the provided code into a new Python script file named `exercise.py`.
+- For each exercise, copy the provided code into a new Python script file named `exercises.py`.
 - Each exercise will include a function where you will write your code. The function structure is provided to help you focus on implementing the specific control flow logic required.
 - Follow the exercise instructions carefully to complete the code.
-- After completing each exercise, run `python3 exercise.py` in your terminal to see the output and test your code.
+- After completing each exercise, run `python3 exercises.py` in your terminal to see the output and test your code.
 
 > You may not have encountered the syntax for functions in Python yet. Don't worry! We've provided the function structure for you. All you need to do is add your code inside the function, just below the comment that says # Your control flow logic goes here. Make sure to indent your code one tab or two spaces from the left margin to ensure it is part of the function.
 

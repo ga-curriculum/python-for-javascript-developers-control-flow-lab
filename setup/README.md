@@ -27,10 +27,10 @@ Next, `cd` into your new cloned directory, `python-control-flow-lab`:
 cd python-control-flow-lab
 ```
 
-Create a file called `exercise.py` for your work.
+Create a file called `exercises.py` for your work.
 
 ```bash
-touch exercise.py
+touch exercises.py
 ```
 
 Open the project's folder in your code editor:

@@ -1,5 +1,9 @@
-# ![Python Control Flow Lab - Level Up](./assets/hero.png)
+<h1>
+  <span class="headline">Control Flow Lab</span>
+  <span class="subhead">Number Guessing Game Exercise</span>
+</h1>
 
+Try another exercise!
 
 ## Exercise 7: Number Guessing Game
 

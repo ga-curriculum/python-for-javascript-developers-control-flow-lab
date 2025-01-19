@@ -1,4 +1,7 @@
-# ![Python Control Flow Lab](../assets/hero.png)
+<h1>
+  <span class="prefix">Python for JavaScript Developers</span>
+  <span class="headline">Control Flow Lab</span>
+</h1>
 
 ## About
 
@@ -11,4 +14,4 @@ Welcome to the Python Control Flow Lab! In this lab, you'll practice implementin
 
 ## Level Up
 
-🚀 [Level Up](../level-up/README.md)
+🚀 [Number Guessing Game Exercise](../number-guessing-game-exercise/README.md)

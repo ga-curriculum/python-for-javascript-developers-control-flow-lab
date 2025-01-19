@@ -1,4 +1,7 @@
-# ![Python Control Flow Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Control Flow Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 Welcome to the Python Control Flow Lab! In this lab, you'll practice implementing control flow in Python, which includes making decisions with conditional statements, repeating actions with loops, and managing user input. 
 

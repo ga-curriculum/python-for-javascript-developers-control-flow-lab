@@ -1,4 +1,7 @@
-# ![Python Control Flow Lab - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Control Flow Lab</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 ## Setup
 

@@ -5,10 +5,10 @@
 
 Try another exercise!
 
-## Exercise 7: Number Guessing Game
+## Exercise 6: Number Guessing Game
 
 ```python
-# Exercise 7: Number Guessing Game
+# Exercise 6: Number Guessing Game
 #
 # Write a Python function named `guess_number` that allows a user to guess a predetermined number within a range.
 #

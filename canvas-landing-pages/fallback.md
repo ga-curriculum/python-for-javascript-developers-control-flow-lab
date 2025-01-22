@@ -10,6 +10,6 @@ Welcome to the Python Control Flow Lab! In this lab, you'll practice implementin
 
 ## Content
 
-- [Setup](./setup/README.md)
-- [Exercise](./exercise/README.md)
-- [Number Guessing Game Exercise](./number-guessing-game-exercise/README.md)
+- [Setup](../setup/README.md)
+- [Exercise](../exercise/README.md)
+- [Number Guessing Game Exercise](../number-guessing-game-exercise/README.md)
